@@ -22,7 +22,7 @@ public class HealthManager : MonoBehaviour
     {
         if (CurrentHealth <= 0)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().ToString());
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
 
         if(CurrentHealth < 100)
